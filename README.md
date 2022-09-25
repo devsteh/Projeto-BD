@@ -1,4 +1,4 @@
-# Projeto-BD :game_die:	:dolphin:
+# Anotações Database Experience :game_die:	:dolphin:
 
 Projetos de banco de dados e anotações feitas durantes as aulas do Bootcamp Database Experience, da Digital Innovation One. 
 
