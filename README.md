@@ -116,9 +116,44 @@ Metadados: Informações que fornecem uma descrição concisa dos dados contidos
 A ideia de criação de um SGBD foi feita em 1960 pela IBM com o intuito de diminuir o custo com funcionários, otimizando recursos e evitando sobrecarga em
 desenvolvedores. O Modelo de BD relacional foi criado com base em cálculos e álgebra relacional, de nível generalista e transparente para o usuário.
 
-#### Modelo hierárquico <br/>
-Um banco de dados hierárquico consiste basicamente em um conjunto de registros conectados por meio de ligações. Toda a estrutura está organizada em um modelo de árvore ou também conhecido como modelo hierárquico. Cada registro filho pode ter apenas um registro pai. Um registro pai pode ter vários registros filho.
-Modelo em Rede
-Projetado como uma abordagem flexível para representar objetos e seus relacionamentos. Um recurso exclusivo do modelo de rede é seu esquema, que é visto como um gráfico onde os tipos de relacionamento são arcos e os tipos de objetos são nós.
-Modelo Relacional
-Classifica dados em tabelas, também conhecidas como relações, cada uma das quais consiste em colunas e linhas. Cada coluna lista um atributo da entidade em questão, como preço, código postal ou data de nascimento. Juntos, os atributos em uma relação são chamados de domínio. É utilizado comandos DDL para definição dos dados dentro da estrutura a ser trabalhada e comandos DML para manipulação dos dados existentes.
+#### Modelo hierárquico: <br/>
+Um banco de dados hierárquico consiste basicamente em um conjunto de registros conectados por meio de ligações. Toda a estrutura está organizada em um modelo de árvore ou também conhecido como modelo hierárquico. Cada registro filho pode ter apenas um registro pai. Um registro pai pode ter vários registros filho.<br/>
+
+#### Modelo em Rede: <br/>
+Projetado como uma abordagem flexível para representar objetos e seus relacionamentos. Um recurso exclusivo do modelo de rede é seu esquema, que é visto como um gráfico onde os tipos de relacionamento são arcos e os tipos de objetos são nós<br/>
+
+#### Modelo Conceitual: <br/>
+Classifica dados em tabelas, também conhecidas como relações, cada uma das quais consiste em colunas e linhas. Cada coluna lista um atributo da entidade em questão, como preço, código postal ou data de nascimento. Juntos, os atributos em uma relação são chamados de domínio. É utilizado comandos DDL para definição dos dados dentro da estrutura a ser trabalhada e comandos DML para manipulação dos dados existentes.<br/>
+
+#### Modelo Lógico: <br/>
+Para a sua implementação, trazemos os conceitos de chaves primárias e estrangeiras, normalizações, entre outros segmentos. Deve ser levado em conta tudo que foi
+criado no modelo conceitual.<br/>
+
+#### Modelo Físico <br/>
+O modelo físico tem como base o que foi desenvolvido no modelo lógico para a criação do banco de dados em um SGBD. Os objetos são definidos em um nível que se chama esquema. A modelagem lógica é importante para seguir nesse passo, pois é onde é realizado o levantamento de dados e coletas das informações que farão parte do esquema.<br/>
+
+--------------------------
+
+### Bancos de Dados NoSQL (No Only SQL)<br/>
+
+Os bancos de dados NoSQL permitem que os dados sejam armazenados utilizando qualquer tipo de estrutura e fornece uma maneira de atualizar os dados ao realizar alterações em sua estrutura. Um banco NoSQL não utiliza o mesmo modelo de estrutura que o modelo relacional (por meio de tabelas, linhas e colunas).<br/>
+É utilizado uma variedade de modelos para tratamento dos dados. Esse tipo de banco tem uma otimização especial para programas que exigem modelos com uma grande variedade e volume de dados. <br/>
+
+*Existem quatro tipos principais de bancos de dados NoSQL:*<br/>
+
+#### Valor principal: <br/>
+Este é o tipo mais flexível de banco de dados NoSQL porque o aplicativo tem controle total sobre o que é armazenado no campo de valor sem quaisquer restrições.<br/>
+
+#### Documento:<br/>
+Também conhecidos como armazenamento de documentos ou bancos de dados orientados a documentos, esses bancos de dados são usados para armazenar, recuperar e gerenciar dados semiestruturados. Não há necessidade de especificar quais campos um documento conterá.<br/>
+
+#### Gráfico:<br/>
+Este banco de dados organiza os dados como nós e relacionamentos, que mostram as conexões entre os nós. Isso oferece suporte a uma representação de dados mais rica e completa. Bancos de dados gráficos são aplicados em redes sociais, sistemas de reserva e detecção de fraudes.<br/>
+
+#### Coluna larga: <br/>
+Esses bancos de dados armazenam e gerenciam dados na forma de tabelas, linhas e colunas. Eles são amplamente implantados em aplicativos que requerem um formato de coluna para capturar dados sem esquema.<br/>
+
+*O que demanda a escolha de um banco de dados é o tipo de dado a ser manipulado e a quantidade de dados que será armazenada.* <br/>
+
+Os dados precisam ser tratados com atenção e cautela, e uma solução que seja prática para se lidar durante o dia a dia em uma empresa, evitando conflitos e retrabalho.
+Um profissional sempre sabe o tipo de dados que serão armazenados e a construção do esquema durante a modelagem de dados de forma rígida, pois todas as informações precisam ter integridade no seu acesso.
